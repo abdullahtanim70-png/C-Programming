@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    double num, count = 0;
+
+    for (int i = 0; i <6; i++) {
+        scanf("%lf", &num);
+
+        if (num > 0) {
+            count++;
+        }
+    }
+
+    printf("%.0lf valores positivos\n", count);
+
+    return 0;
+}
