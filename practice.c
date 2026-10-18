@@ -1,9 +1,27 @@
 #include<stdio.h>
-int main(){
-  double a,b,c,avg;
-   scanf("%lf%lf%lf",&a,&b,&c);
-   avg=((a*2)+(b*3)+(c*5))/(2+3+5);
-   printf("MEDIA = %.1lf\n",avg);
-return 0;
+int main()
+{
+    int n;
+
+    for(int j=1;; j++)
+    {
+
+        scanf("%d",&n);
+        if(n==0)
+        {
+            break;
+        }
+        else
+        {
+            int sum=0;
+            for(int i=1; i<=n; i++)
+            {
+                sum=sum+i;
+
+            }
+
+        }
+        printf("%d\n",sum);
+    }
 
 }
